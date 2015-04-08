@@ -1,0 +1,45 @@
+---
+layout: default
+
+---
+
+
+<div class="row bg-info">
+    <div class="col-md-12">
+        <a class="h1 text-center " data-toggle="collapse" data-parent="#accordion" href="#warum">
+            <p ><span class="label label-primary">Warum sollte man seine Emails verschlüsseln?<span class="caret"></span></span></p>
+        </a>
+        <div id="warum" class="well">
+            <button type="button" class="close" data-toggle="collapse" data-parent="#accordion" href="#warum">
+                <span aria-hidden="true">&times;</span><span class="sr-only">Schließen</span>
+            </button>
+            
+            {% markdown why.md %} 
+
+        </div>
+
+    </div>
+</div>
+
+<div class="row center bg-info">
+    <a href="https://www.youtube.com/watch?v=inxNRA4xK1Q" target="_blank">
+        <img src="/imgs/youtube2.jpg" >
+    </a>
+</div>
+
+<div class="row bg-info">
+    <div class="col-md-12">
+        <a class="h1 text-center " data-toggle="collapse" data-parent="#accordion" href="#wie">
+            <p ><span class="label label-primary">Wie funktioniert Emailverschlüsselung?<span class="caret"></span></span></p>
+        </a>
+        <div id="wie" class="well">
+            <button type="button" class="close" data-toggle="collapse" data-parent="#accordion" href="#wie">
+                <span aria-hidden="true">&times;</span><span class="sr-only">Schließen</span>
+            </button>
+            
+            {% markdown how.md %}
+
+        </div>
+
+    </div>
+</div>

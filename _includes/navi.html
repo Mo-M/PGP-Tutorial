@@ -1,0 +1,41 @@
+<nav class="navbar navbar-default navbar-static-top" role="navigation">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navigation-collapse">
+                <span class="sr-only">Navigation ein-/ausblenden</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand visible-xs" href="#">{{ site.title }}</a>
+        </div>
+        <div class="collapse navbar-collapse" id="navigation-collapse">
+            <ul class="nav nav-tabs nav-justified" role="tablist">
+                {% for system in site.systems %}
+                        {% if system == page.system %}
+                        <li class="active h3"><a href="{{site.baseurl}}{{system}}/Thunderbird/">{{system}}</a></li>
+                        {% else %}
+                        <li class="h3"><a href="{{site.baseurl}}{{system}}/Thunderbird/">{{system}}</a></li>
+                        {% endif %}
+                {% endfor %}
+            </ul>
+            {% if page.program %}
+            <ul class="nav nav-tabs nav-justified" role="tablist">
+                {% for item in site.pages %}
+                    {% assign folder = item.path | split: "/" | first %}
+                    {% assign pathlength = item.path | split: "/" | size %}
+                    {% if item.system == page.system and item.system == folder and pathlength == 3 %}
+                        {% if item.program == page.program %}
+                        <li class="active h4"><a href="{{item.url}}">{{item.program}}</a></li>
+                        {% else %}
+                        <li class="h4"><a href="{{item.url}}">{{item.program}}</a></li>
+                        {% endif %}
+                    {% endif %}
+                {% endfor %}
+            </ul>
+            {% endif %}
+        </div>
+    </div>
+</nav>
+
+{% include share.html %}

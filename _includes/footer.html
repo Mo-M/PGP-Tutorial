@@ -1,0 +1,26 @@
+<div class="container" >
+    {% if page.version %} <p>Programm Versionen: {{page.version}}</p> {% endif %}
+</div>
+<div class="container footer">
+    <p class="pull-right"><a href="{{site.baseurl}}archiv" >Archiv</a></p>
+    <p>
+        <a href="{{site.baseurl}}impressum.html">Impressum</a> ·
+        <a href="{{site.baseurl}}faq.html">FAQ</a> ·
+        <a href="{{site.baseurl}}links.html">Links</a> ·
+        <a href="{{site.baseurl}}README.html">Contribute</a>
+    </p>
+    <p>© 2015 Universität Hamburg. Alle Rechte vorbehalten.</p>
+</div>
+<!-- jQuery (wird für Bootstrap JavaScript-Plugins benötigt) -->
+<script src="{{site.baseurl}}js/jquery.min.js"></script>
+<script src="{{site.baseurl}}js/bootstrap.min.js"></script>
+<script src="{{site.baseurl}}js/main.js"></script>
+<script src="{{site.baseurl}}js/addtoany.js"></script>
+
+<script type="text/javascript">
+var a2a_config = a2a_config || {};
+a2a_config.linkname = "{{site.title}} - {{ page.system }} - {{ page.program }}";
+a2a_config.linkurl = "{{site.url}}{{page.url}}";
+a2a_config.onclick = 1;
+a2a_config.locale = "de";
+</script>

@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Moritz Mönnich">
+    <title> Email-Verschlüsselung - README.md</title>
+    <meta name="description" content="Einfache Anleitung zum Austausch verschlüsselter Emails">
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="/css/bootstrap.css" >
+    <link rel="stylesheet" href="/css/bootstrap-theme.min.css" >
+    <link rel="stylesheet" href="/css/style.css" >
+    <link rel="stylesheet" href="/css/font-awesome.min.css" >
+    <!-- Unterstützung für Media Queries und HTML5-Elemente im Internet Explorer über HTML5 shim und Respond.js -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+        <noscript><style> .jsonly { display: none } </style></noscript>
+</head>
+
+  <body>
+
+    <div class="jumbotron center hidden-xs">
+    <div class = "container-fluid">
+        <a href="http://www.uni-hamburg.de"><img class="pull-left"  src="/imgs/uhh-logo.gif" alt="Uhh Logo"></a>
+    </div>
+    <div class = "container-fluid">
+        <h1><a href="/" ><span class="label label-default hidden-xs">Email-Verschlüsselung</span></a></h1>
+        <div class="h3"><span class="label label-default visible-xs">Email-Verschlüsselung</span></div>
+        <h2><small>Einfache Anleitung zum Austausch verschlüsselter Emails</small> </h2>
+    </div>
+</div>
+
+
+
+    <nav class="navbar navbar-default navbar-static-top" role="navigation">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navigation-collapse">
+                <span class="sr-only">Navigation ein-/ausblenden</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand visible-xs" href="#">Email-Verschlüsselung</a>
+        </div>
+        <div class="collapse navbar-collapse" id="navigation-collapse">
+            <ul class="nav nav-tabs nav-justified" role="tablist">
+                
+                        
+                        <li class="h3"><a href="/Windows/Thunderbird/">Windows</a></li>
+                        
+                
+                        
+                        <li class="h3"><a href="/MacOS/Thunderbird/">MacOS</a></li>
+                        
+                
+                        
+                        <li class="h3"><a href="/Linux/Thunderbird/">Linux</a></li>
+                        
+                
+            </ul>
+            
+        </div>
+    </div>
+</nav>
+
+<div class="container-fluid pull-right">
+    <div class="a2a_kit a2a_kit_size_32 a2a_default_style">
+        <a class="a2a_dd" href="https://www.addtoany.com/share_save?linkurl=/README.html&amp;linkname=Email-Verschlüsselung"></a>
+        <a class="a2a_button_facebook"></a>
+        <a class="a2a_button_twitter"></a>
+        <a class="a2a_button_google_plus"></a>
+    </div>
+</div>
+<br>
+<br>
+
+
+
+    <div class="container-fluid">
+        <h1 id="contribute">Contribute</h1>
+
+<p><a href="https://github.com/Mo-M">github/Mo-M</a></p>
+
+<h2 id="make-a-tutorial">Make a Tutorial</h2>
+
+<h3 id="requirements">Requirements</h3>
+
+<ul>
+  <li>Virtualbox 4.3</li>
+  <li>Windows 8.1 VM</li>
+  <li>Ubuntu 14.10 64Bit VM</li>
+  <li>Mac OSX Yosemite VM</li>
+  <li>Gimp</li>
+  <li>imagemagick</li>
+  <li>jekill 2.5.3</li>
+</ul>
+
+<h3 id="settings">Settings</h3>
+
+<ul>
+  <li>Screen 1024x778</li>
+  <li>System Language: German</li>
+</ul>
+
+<h3 id="archive-an-old-tutorial">Archive an old Tutorial</h3>
+
+<ul>
+  <li>move all the files of the selected tutorial <strong>System/Program/</strong> to <strong>archiv/year-month-day/System/Program/</strong></li>
+</ul>
+
+<h3 id="create-the-screens-and-thumbnails">Create the Screens and thumbnails</h3>
+
+<ul>
+  <li>
+    <p>Make a screenshot in virtualbox of every step with the build in function “Take Screenshot” (Strg+E) and save them as png.</p>
+  </li>
+  <li>Gimp:
+    <ul>
+      <li>Select the main window or the important part of the screenshot and crop it to selection.</li>
+      <li>Mark every user-action with a red (#f90206) rectangle (Rounded corners radius: 5.0, Border:4px).</li>
+      <li>If there are several steps in one screenshot, numerate them with Sans Bold 25px red numbers.</li>
+      <li>Write if it’s necessary some info text into the screenshot with red Sans Bold 25px text.</li>
+      <li>Export the image to the “imgs” directory as *.jpg with default export preferences.</li>
+    </ul>
+  </li>
+  <li>
+    <p>convert the images to thumbnails with a width of 250px and save these thumbnails to thumbs/</p>
+
+    <pre><code>  for i in $(ls -1 imgs); 
+  do 
+      convert -thumbnail 250 imgs/$i ./thumbs/$i
+  done
+</code></pre>
+  </li>
+</ul>
+
+<h3 id="create-the-pages">Create the Pages</h3>
+
+<ul>
+  <li>
+    <p>create in the directory <strong>System/Program/</strong> e.g <strong>Windows/Thunderbird/</strong> the file index.md with following format:</p>
+
+    <pre><code>  ---
+  layout: tutorial
+  system: &lt;System&gt;
+  program: &lt;Programname&gt;
+  version: &lt;List of Programs and their versions&gt;
+  ---
+</code></pre>
+  </li>
+  <li>
+    <p>create for every step a single file in <strong>System/Program/</strong> named <strong>&lt;step&gt;.md</strong> e.g <em>1a.md</em> or <em>2.md</em> with following format:</p>
+
+    <pre><code>  ---
+  layout: images
+  title: &lt;title&gt;
+  subtitle: &lt;subtitle&gt;
+  hidestep: &lt;true/false&gt;
+  thumb: &lt;thumbnail-filename&gt;
+  text: |
+      &lt;Short description of this Step (markdown or html)&gt;
+  info: |
+      &lt;expended info description (markdown or html)&gt;
+  images:
+      - &lt;imagefile&gt;
+      - &lt;imagefile&gt;
+      ...
+
+  ---
+</code></pre>
+
+    <ul>
+      <li>“<em>hidestep: true</em>” : hide the step number.</li>
+    </ul>
+  </li>
+  <li>
+    <p>build the website in the _site directory:</p>
+
+    <pre><code>  jekyll build
+</code></pre>
+  </li>
+</ul>
+
+
+    </div>
+
+    <div class="container" >
+    
+</div>
+<div class="container footer">
+    <p class="pull-right"><a href="/archiv" >Archiv</a></p>
+    <p>
+        <a href="/impressum.html">Impressum</a> ·
+        <a href="/faq.html">FAQ</a> ·
+        <a href="/links.html">Links</a> ·
+        <a href="/README.html">Contribute</a>
+    </p>
+    <p>© 2015 Universität Hamburg. Alle Rechte vorbehalten.</p>
+</div>
+<!-- jQuery (wird für Bootstrap JavaScript-Plugins benötigt) -->
+<script src="/js/jquery.min.js"></script>
+<script src="/js/bootstrap.min.js"></script>
+<script src="/js/main.js"></script>
+<script src="/js/addtoany.js"></script>
+
+<script type="text/javascript">
+var a2a_config = a2a_config || {};
+a2a_config.linkname = "Email-Verschlüsselung -  - ";
+a2a_config.linkurl = "http://encrypt.adhara.uberspace.de/README.html";
+a2a_config.onclick = 1;
+a2a_config.locale = "de";
+</script>
+
+
+  </body>
+
+</html>

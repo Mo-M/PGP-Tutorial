@@ -1,0 +1,21 @@
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Moritz Mönnich">
+    <title> {{ site.title }} - {{ page.path | split: "/" | first}}{% if page.program %} - {{ page.program }}{% endif %}{% if page.title %} - {{page.title}} {% endif %}</title>
+    <meta name="description" content="{{ site.description }}">
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="{{ "css/bootstrap.css" | prepend: site.baseurl }}" >
+    <link rel="stylesheet" href="{{ "css/bootstrap-theme.min.css" | prepend: site.baseurl }}" >
+    <link rel="stylesheet" href="{{ "css/style.css" | prepend: site.baseurl }}" >
+    <link rel="stylesheet" href="{{ "css/font-awesome.min.css" | prepend: site.baseurl }}" >
+    <!-- Unterstützung für Media Queries und HTML5-Elemente im Internet Explorer über HTML5 shim und Respond.js -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+        <noscript><style> .jsonly { display: none } </style></noscript>
+</head>

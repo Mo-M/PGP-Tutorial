@@ -1,0 +1,11 @@
+# Site settings
+title: Email-Verschlüsselung
+subtitle: Einfache Anleitung zum Austausch verschlüsselter Emails
+description: Einfache Anleitung zum Austausch verschlüsselter Emails
+baseurl: "/"
+url: "http://encrypt.adhara.uberspace.de" 
+systems: [Windows, MacOS, Linux]
+exclude: screens
+
+# Build settings
+markdown: kramdown

@@ -1,0 +1,14 @@
+---
+layout: default
+---
+
+<div class="container-fluid center">
+    <br>
+    {{page.text | markdownify}}
+    {% for img in page.images %}
+        <img src="{{site.baseurl}}imgs/{{img}}">
+    {% endfor %}
+    <br>
+    <br>
+    {{ content }}
+</div>

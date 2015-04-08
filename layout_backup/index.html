@@ -1,0 +1,1121 @@
+<!DOCTYPE html>
+<html lang="de">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="author" content="Moritz Mönnich">
+        <title> Email-Verschlüsselung </title>
+
+        <!-- Bootstrap -->
+        <link href="css/bootstrap.css" rel="stylesheet">
+        <link href="css/bootstrap-theme.min.css" rel="stylesheet">
+        <link href="css/style.css" rel="stylesheet">
+        <!-- Unterstützung für Media Queries und HTML5-Elemente im Internet Explorer über HTML5 shim und Respond.js -->
+        <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+            <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+            <![endif]-->
+
+        <noscript><style> .jsonly { display: none } </style></noscript>
+    </head>
+    <body>
+
+<!-- Überschrift -->
+        <div class="jumbotron center hidden-xs">
+            <div class = "container-fluid">
+                <h1><span class="label label-default hidden-xs">Email Verschlüsselung</span></h1>
+                <div class="h3"><span class="label label-default visible-xs">Email Verschlüsselung</span></div>
+                <h2><small> Einfache Anleitung zum Austausch verschlüsselter Emails</small> </h2>
+            </div>
+        </div>
+
+<!-- Navigation -->
+        <nav class="navbar navbar-default navbar-static-top" role="navigation">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navigation-collapse">
+                        <span class="sr-only">Navigation ein-/ausblenden</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand visible-xs" href="#">Email Verschlüsselung</a>
+                </div>
+                <div class="collapse navbar-collapse" id="navigation-collapse">
+                    <ul class="nav nav-tabs nav-justified" role="tablist">
+                        <li class="active h3"><a href="#">Windows</a></li>
+                        <li class="h3"><a href="#">Mac OS</a></li>
+                        <li class="h3"><a href="#">Linux</a></li>
+                    </ul>
+                    <ul class="nav nav-tabs nav-justified" role="tablist">
+                        <li class="active h4"><a href="#">Thunderbird</a></li>
+                        <li class="h4"><a href="#">Outlook</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <div class="container-fluid">
+
+<!-- $Schritt 1a -->
+
+            <div class="row">
+                <div class="col-md-12">
+                    <p class="h1 text-center"><span class="label label-primary"> Email Software einrichten</span></p>
+                </div>
+                <div class="col-md-9 col-md-push-3">
+                        <h2><span class="label label-primary"> Schritt 1.a</span>  Thunderbird Installation</h2>
+                        <p class="lead"><a href="https://www.mozilla.org/de/thunderbird/">Thunderbird <span class="glyphicon glyphicon-download"></span></a> runterladen und ausführen. 
+                        </p>
+                </div>
+
+                <div class="col-md-3 col-md-pull-9">
+                    <div class="col-xs-5 col-md-8">
+                        <a href="#" onclick="loadImgs('modal1'); $('#carousel-1a').carousel(0)" class="thumbnail jsonly" data-toggle="modal" data-target="#modal1">
+                            <img src="./thumbs/thumb_1_thunder_1.jpeg"  data-src="holder.js/100%x180" alt="thumb">
+                            <h3 class="caption">Bilderserie...</h3>
+                        </a>
+                        <noscript>
+                            <a href="images-1a.html" class="thumbnail"> 
+                                <img src="./thumbs/thumb_1_thunder_1.jpeg"  data-src="holder.js/100%x180" alt="thumb">
+                                <h3 class="caption">Bilderserie...</h3>
+                            </a>
+                        </noscript>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+            </div> <!-- rowend -->
+
+<!-- $Schritt 1b -->
+            <div class="row">
+                <hr class="container featurette-divider bg-info">
+                <div class="col-md-9 col-md-push-3">
+                    <h2><span class="label label-primary"> Schritt 1.b</span>  Thunderbird einrichten</h2>
+                    <p class="lead"> Neues Konto erstellen: Email und Passwort eingeben. </p>
+
+                    <a class="btn btn-info btn-xs" data-toggle="collapse" data-parent="#accordion" href="#info1b">Infos <span class="caret"></span></a>
+                    <div id="info1b" class="well">
+                        <button type="button" class="close" data-toggle="collapse" data-parent="#accordion" href="#info1b">
+                            <span aria-hidden="true">&times;</span><span class="sr-only">Schließen</span>
+                        </button>
+                        <p> Klicke auf der Startseite unter <strong>"Neues Konto erstellen:"</strong> auf <strong>E-Mail</strong>. Wähle <strong>"Überspringen und meine existierende E-Mail-Adresse verwenden"</strong>. Gebe deinen Namen, deine Email-Adresse und das dazugehörige Passwort ein. <br>
+                        Es sollten daraufhin alle Einstellungen deines Email-Providers automatisch gefunden werden. Dann ist dein Email Konto einsatzbereit. <br>
+                        Sollten die Einstellungen nicht automatisch gefunden werden, erkundige dich bei deinem Email-Provider.
+                    </div>
+                    <br>
+                    <br>
+                </div>
+
+                <div class="col-md-3 col-md-pull-9">
+                    <div class="col-xs-5 col-md-8">
+
+                        <a href="#" onclick="loadImgs('modal2'); $('#carousel-1b').carousel(0)" class="thumbnail jsonly" data-toggle="modal" data-target="#modal2">
+                            <img src="./thumbs/thumb_2_thunder_1.jpeg"  data-src="holder.js/100%x180" alt="thumb">
+                                <h3 class="caption">Bilderserie...</h3>
+                        </a>
+                        <noscript>
+                            <a href="images-1b.html" class="thumbnail">
+                                <img src="./thumbs/thumb_2_thunder_1.jpeg"  data-src="holder.js/100%x180" alt="thumb">
+                                <h3 class="caption">Bilderserie...</h3>
+                            </a>
+                        </noscript>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+
+            </div> <!-- rowend -->
+
+<!-- $Schritt 2a -->
+            <div class="row bg-info">
+                <div class="col-md-12">
+                    <p class="h1 text-center"><span class="label label-default"> Verschlüsselungs Software installieren</span></p>
+                </div>
+
+                <div class="col-md-9 col-md-push-3">
+                    <h2><span class="label label-default">Schritt 2.a</span> Gpg4Win Installation</h2>
+                    <p class="lead"> <a href="http://files.gpg4win.org/gpg4win-2.2.2.exe">Gpg4Win <span class="glyphicon glyphicon-download"></span></a> runterladen und ausführen.
+                    Installation mit "Weiter" bist zum Ende folgen.  </p>
+                    
+                    <a class="btn btn-info btn-xs" data-toggle="collapse" data-parent="#accordion" href="#info2a">Infos <span class="caret"></span></a>
+                    <div id="info2a" class="well">
+                        <button type="button" class="close" data-toggle="collapse" data-parent="#accordion" href="#info2a">
+                            <span aria-hidden="true">&times;</span><span class="sr-only">Schließen</span>
+                        </button>
+                        In dem Auswahlmenü <strong>Komponenten auswählen</strong> kann <strong>GplOL</strong> abgewählt werden, da dies nur für Outlook benötigt wird.
+                    </div>
+                    <br>
+                    <br>
+                </div>
+
+                <div class="col-md-3 col-md-pull-9">
+                    <div class="col-xs-5 col-md-8">
+
+                        <a href="#" onclick="loadImgs('modal3'); $('#carousel-2a').carousel(0)" class="thumbnail jsonly" data-toggle="modal" data-target="#modal3">
+                            <img src="./thumbs/thumb_3_gpg4win_1.jpeg"  data-src="holder.js/100%x180" alt="thumb">
+                                <h3 class="caption">Bilderserie...</h3>
+                        </a>
+                        <noscript>
+                            <a href="images-2a.html" class="thumbnail">
+                                <img src="./thumbs/thumb_3_gpg4win_1.jpeg"  data-src="holder.js/100%x180" alt="thumb">
+                                <h3 class="caption">Bilderserie...</h3>
+                            </a>
+                        </noscript>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+
+            </div> <!-- rowend -->
+
+<!-- $Schritt 2b -->
+            <div class="row bg-info">
+                <hr class="container featurette-divider bg-info">
+
+                <div class="col-md-9 col-md-push-3">
+                    <h2><span class="label label-default">Schritt 2.b</span> Enigmail Installation</h2>
+                    <p class="lead">Suche in der Thunderbird-Addon-Suche nach "Enigmail" und installiere es. </p>
+
+                </div>
+
+                <div class="col-md-3 col-md-pull-9">
+                    <div class="col-xs-5 col-md-8">
+
+                        <a href="#" onclick="loadImgs('modal4'); $('#carousel-2b').carousel(0)" class="thumbnail jsonly" data-toggle="modal" data-target="#modal4">
+                            <img src="./thumbs/thumb_4_enigmail_1.jpeg"  data-src="holder.js/100%x180" alt="thumb">
+                                <h3 class="caption">Bilderserie...</h3>
+                        </a>
+                        <noscript>
+                            <a href="images-2b.html" class="thumbnail">
+                                <img src="./thumbs/thumb_4_enigmail_1.jpeg"  data-src="holder.js/100%x180" alt="thumb">
+                                <h3 class="caption">Bilderserie...</h3>
+                            </a>
+                        </noscript>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+
+            </div> <!-- rowend -->
+
+<!-- $Schritt 3a -->
+            <div class="row bg-default">
+                <div class="col-md-12">
+                    <p class="h1 text-center"><span class="label label-primary"> Verschlüsselungs Software einrichten</span></p>
+                </div>
+
+                <div class="col-md-9 col-md-push-3">
+                        <h2><span class="label label-primary">Schritt 3.a</span> Schlüssel erzeugen</h2>
+                        <p class="lead">Folge nach dem Neustart dem Assistenten. </p>
+                    <a class="btn btn-info btn-xs" data-toggle="collapse" data-parent="#accordion" href="#info3a">Infos <span class="caret"></span></a>
+                    <div id="info3a" class="well">
+                        <button type="button" class="close" data-toggle="collapse" data-parent="#accordion" href="#info3a">
+                            <span aria-hidden="true">&times;</span><span class="sr-only">Schließen</span>
+                        </button>
+                        Falls der Assistent nicht automatisch startet, kann dieser über <strong>Enigmail -> Enigmail-Assistent"</strong> aufgerufen werden.<br>
+                        Es können alle Standard-Einstellungen beibehalten werden. <br>
+                        Wir empfehlen die Standard Auswahl <strong>Alle meine Nachrichten sollen standardmässig unterschrieben werden</strong> zu belassen. Falls dies nachträglich geändert werden soll, kann man dies unter <strong>Einstellungen -> Konten-Einstellungen -> OpenPGP-Sicherheit</strong> rückgängig machen.
+                    </div>
+                    <br>
+                    <br>
+                </div>
+
+                <div class="col-md-3 col-md-pull-9">
+                    <div class="col-xs-5 col-md-8">
+
+                        <a href="#" onclick="loadImgs('modal5'); $('#carousel-3a').carousel(0)" class="thumbnail jsonly" data-toggle="modal" data-target="#modal5">
+                            <img src="./thumbs/thumb_4_enigmail_4.jpeg"  data-src="holder.js/100%x180" alt="thumb">
+                                <h3 class="caption">Bilderserie...</h3>
+                        </a>
+                        <noscript>
+                            <a href="images-3a.html" class="thumbnail">
+                                <img src="./thumbs/thumb_4_enigmail_4.jpeg"  data-src="holder.js/100%x180" alt="thumb">
+                                <h3 class="caption">Bilderserie...</h3>
+                            </a>
+                        </noscript>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+            </div>
+
+            <div class="row bg-default">
+                <hr class="container featurette-divider bg-info">
+
+                <div class="col-md-9 col-md-push-3">
+                    <p class="lead">
+                    Wähle bei der Schlüssel Erzeugung ein "sicheres" Passwort.
+                    </p>
+                    <a class="btn btn-danger btn-xs" data-toggle="collapse" data-parent="#accordion" href="#info3a2">Schlüssel Infos <span class="caret"></span></a>
+                    <div id="info3a2" class="well">
+                        <button type="button" class="close" data-toggle="collapse" data-parent="#accordion" href="#info3a2">
+                            <span aria-hidden="true">&times;</span><span class="sr-only">Schließen</span>
+                        </button>
+                        Nachdem das Passwort eingegeben wurde, wird ein <strong>privater Schlüssel</strong> und ein <strong>öffentlicher Schlüssel</strong> erstellt. <br>
+                        Der <strong>private Schlüssel</strong> dient nur der <strong> Entschlüsselung </strong> und bleibt <strong>geheim</strong>!<br>
+                        Der <strong>öffentliche Schlüssel</strong> wird zum <strong> Verschlüsseln </strong> benutzt und muss somit an jeden, der dir verschlüsselte Emails schicken soll verteilt werden.
+                    </div>
+                    <br>
+                    <br>
+                </div>
+
+                <div class="col-md-3 col-md-pull-9">
+                    <div class="col-xs-5 col-md-8">
+
+                        <a href="#" onclick="loadImgs('modal5'); $('#carousel-3a').carousel(5)" class="thumbnail jsonly" data-toggle="modal" data-target="#modal5">
+                            <img src="./thumbs/thumb_4_enigmail_9.jpeg"  data-src="holder.js/100%x180" alt="thumb">
+                                <h3 class="caption">Bilderserie...</h3>
+                        </a>
+                        <noscript>
+                            <a href="images-3b.html" class="thumbnail">
+                                <img src="./thumbs/thumb_4_enigmail_9.jpeg"  data-src="holder.js/100%x180" alt="thumb">
+                                <h3 class="caption">Bilderserie...</h3>
+                            </a>
+                        </noscript>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+
+            </div> <!-- rowend -->
+
+<!-- $Schritt 3b -->
+            <div class="row bg-default">
+                <hr class="container featurette-divider bg-info">
+
+                <div class="col-md-9 col-md-push-3">
+                        <h2><span class="label label-primary">Schritt 3.b</span> Widerufszertifikat erzeugen</h2>
+                        <p class="lead">
+                        Erzeuge ein Zertifikat und speichere es an einem "sicheren" Ort. <br>
+                        Dies wird benötigt um den Schlüssel bei Bedarf für ungültig zu erklären.
+                        </p>
+                    
+                    <a class="btn btn-info btn-xs" data-toggle="collapse" data-parent="#accordion" href="#info3b">Infos <span class="caret"></span></a>
+                    <div id="info3b" class="well">
+                        <button type="button" class="close" data-toggle="collapse" data-parent="#accordion" href="#info3b">
+                            <span aria-hidden="true">&times;</span><span class="sr-only">Schließen</span>
+                        </button>
+                        Speichere das Wiederufszertifikat sicherheitshalber auf einer <strong>CD</strong> oder einem <strong>USB Stick</strong>. <br>
+                        Mit dem Wiederufszertifikat kann man den privaten Schlüssel für ungültig erklären, um, bei Diebstahl des Schlüssels, Mißbrauch (Identitätdiebstahl, mitlesen von verschlüsselten Emails) zu verhindern.
+                    </div>
+                    <br>
+                    <br>
+                </div>
+
+                <div class="col-md-3 col-md-pull-9">
+                    <div class="col-xs-5 col-md-8">
+
+                        <a href="#" onclick="loadImgs('modal6'); $('#carousel-3b').carousel(0)" class="thumbnail jsonly" data-toggle="modal" data-target="#modal6">
+                            <img src="./thumbs/thumb_4_enigmail_12.jpeg"  data-src="holder.js/100%x180" alt="thumb">
+                                <h3 class="caption">Bilderserie...</h3>
+                        </a>
+                        <noscript>
+                            <a href="images-3b.html" class="thumbnail">
+                                <img src="./thumbs/thumb_4_enigmail_12.jpeg"  data-src="holder.js/100%x180" alt="thumb">
+                                <h3 class="caption">Bilderserie...</h3>
+                            </a>
+                        </noscript>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+
+            </div> <!-- rowend -->
+
+<!-- $Schritt 4a -->
+            <div class="row bg-info">
+                <div class="col-md-12">
+                    <p class="h1 text-center"><span class="label label-default"> Verschlüsselter Email Versandt</span></p>
+                </div>
+
+                <div class="col-md-9 col-md-push-3">
+                        <h2><span class="label label-default">Schritt 4.a</span> Empfange verschlüsselte Mails</h2>
+                        <p class="lead">
+                        Lade deinen öffentlichen Schlüssel auf einen Schlüsselserver
+                        </p>
+                    <a class="btn btn-info btn-xs" data-toggle="collapse" data-parent="#accordion" href="#info4a"> Schlüsselserver Infos <span class="caret"></span></a>
+                    <div id="info4a" class="well">
+                        <button type="button" class="close" data-toggle="collapse" data-parent="#accordion" href="#info4a">
+                            <span aria-hidden="true">&times;</span><span class="sr-only">Schließen</span>
+                        </button>
+                        Der Vorgegebene Schlüsselserver kann im Normalfall beibehalten werden. <br>
+                        Sobald dein Schlüssel auf einem Schlüsselserver geladen wurde, kann jeder, der deine SchlüsselID (wird automatisch an unterschriebene Emails gehängt) besitzt diesen importieren und dir verschlüsselte Emails schicken.
+                        <br> <br>
+                        <a href="#" onclick="loadImgs('modal7'); $('#carousel-4a').carousel(0)" data-toggle="modal" data-target="#modal7">Verschlüsselte Mails lassen sich an einem Schloss-Symbol <span class="glyphicon glyphicon-lock"></span> in der oberen rechten Ecke der Mail erkennen.</a>
+                    </div>
+                    <br>
+                    <br>
+                </div>
+
+                <div class="col-md-3 col-md-pull-9">
+                    <div class="col-xs-5 col-md-8">
+
+                        <a href="#" onclick="loadImgs('modal7'); $('#carousel-4a').carousel(0)" class="thumbnail jsonly" data-toggle="modal" data-target="#modal7">
+                            <img src="./thumbs/thumb_5_encrypt_7.jpeg"  data-src="holder.js/100%x180" alt="thumb">
+                                <h3 class="caption">Bilderserie...</h3>
+                        </a>
+                        <noscript>
+                            <a href="images-4a.html" class="thumbnail">
+                                <img src="./thumbs/thumb_5_encrypt_7.jpeg"  data-src="holder.js/100%x180" alt="thumb">
+                                <h3 class="caption">Bilderserie...</h3>
+                            </a>
+                        </noscript>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+                
+            </div> 
+
+            <div class="row bg-info">
+                <hr class="container featurette-divider bg-info">
+
+                <div class="col-md-9 col-md-push-3">
+                        <p class="lead">
+                        Versende deinen öffentlichen Schlüssel 
+                        </p>
+                    <a class="btn btn-info btn-xs" data-toggle="collapse" data-parent="#accordion" href="#info4a2">Infos <span class="caret"></span></a>
+                    <div id="info4a2" class="well">
+                        <button type="button" class="close" data-toggle="collapse" data-parent="#accordion" href="#info4a2">
+                            <span aria-hidden="true">&times;</span><span class="sr-only">Schließen</span>
+                        </button>
+                        Du kannst deinen Schlüssel auch direkt an deine Email anhängen, so dass dieser direkt von dem Empfänger importiert werden kann, damit dieser dir verschlüsselte Emails schicken kann.
+                        <br> <br>
+                        <a href="#" onclick="loadImgs('modal7'); $('#carousel-4a').carousel(0)" data-toggle="modal" data-target="#modal7">Verschlüsselte Mails lassen sich an einem Schloss-Symbol <span class="glyphicon glyphicon-lock"></span> in der oberen rechten Ecke der Mail erkennen.</a>
+                    </div>
+                    <br>
+                    <br>
+                </div>
+
+                <div class="col-md-3 col-md-pull-9">
+                    <div class="col-xs-5 col-md-8">
+
+                        <a href="#" onclick="loadImgs('modal7'); $('#carousel-4a').carousel(3)" class="thumbnail jsonly" data-toggle="modal" data-target="#modal7">
+                            <img src="./thumbs/thumb_5_encrypt_13.jpeg"  data-src="holder.js/100%x180" alt="thumb">
+                                <h3 class="caption">Bilderserie...</h3>
+                        </a>
+                        <noscript>
+                            <a href="images-4b.html" class="thumbnail">
+                                <img src="./thumbs/thumb_5_encrypt_13.jpeg"  data-src="holder.js/100%x180" alt="thumb">
+                                <h3 class="caption">Bilderserie...</h3>
+                            </a>
+                        </noscript>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+
+            </div> <!-- rowend -->
+
+<!-- $Schritt 4b -->
+            <div class="row bg-info">
+                <hr class="container featurette-divider bg-info">
+
+                <div class="col-md-9 col-md-push-3">
+                        <h2><span class="label label-default">Schritt 4.b</span> Versende verschlüsselte Mails</h2>
+                        <p class="lead">Importiere einen empfangenden Schlüssel... </p>
+                    <a class="btn btn-info btn-xs" data-toggle="collapse" data-parent="#accordion" href="#info4b1">Infos <span class="caret"></span></a>
+                    <div id="info4b1" class="well">
+                        <button type="button" class="close" data-toggle="collapse" data-parent="#accordion" href="#info4b1">
+                            <span aria-hidden="true">&times;</span><span class="sr-only">Schließen</span>
+                        </button>
+                        Ein empfangender Schlüssel lässt sich erkennen an einem Anhang der mit <strong>.asc</strong> endet.
+                        Dieser lässt sich per Rechtsklick importieren.
+                    </div>
+                    <br>
+                    <br>
+                </div>
+
+                <div class="col-md-3 col-md-pull-9">
+                    <div class="col-xs-5 col-md-8">
+
+                        <a href="#" onclick="loadImgs('modal8'); $('#carousel-4b').carousel(0)" class="thumbnail jsonly" data-toggle="modal" data-target="#modal8">
+                            <img src="./thumbs/thumb_5_encrypt_17.jpeg"  data-src="holder.js/100%x180" alt="thumb">
+                                <h3 class="caption">Bilderserie...</h3>
+                        </a>
+                        <noscript>
+                            <a href="images.html" class="thumbnail">
+                                <img src="./thumbs/thumb_5_encrypt_17.jpeg"  data-src="holder.js/100%x180" alt="thumb">
+                                <h3 class="caption">Bilderserie...</h3>
+                            </a>
+                        </noscript>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+            </div> <!-- rowend -->
+            <div class="row bg-info">
+                <hr class="container featurette-divider bg-info">
+
+                <div class="col-md-9 col-md-push-3">
+                        <p class="lead">
+                        <br>... oder lade den Schlüssel von einem Schlüsselserver runter. </p>
+
+                    <a class="btn btn-info btn-xs" data-toggle="collapse" data-parent="#accordion" href="#info4b2">Infos <span class="caret"></span></a>
+                    <div id="info4b2" class="well">
+                        <button type="button" class="close" data-toggle="collapse" data-parent="#accordion" href="#info4b2">
+                            <span aria-hidden="true">&times;</span><span class="sr-only">Schließen</span>
+                        </button>
+                        Falls kein Schlüssel angehängt wurde kann dieser auch von einem Schlüsselserver geladen werden. <br>
+                        Klicke dafür in dem gelben Dialog über der empfangenen Email auf <strong>Details</strong> und auf <strong> Schlüssel importieren </strong>. Der Vorgegebene Schlüsselserver kann in den meisten Fällen beibehalten werden.
+                    </div>
+                    <br>
+                    <br>
+                </div>
+
+                <div class="col-md-3 col-md-pull-9">
+                    <div class="col-xs-5 col-md-8">
+
+                        <a href="#" onclick="loadImgs('modal8'); $('#carousel-4b').carousel(2)" class="thumbnail jsonly" data-toggle="modal" data-target="#modal8">
+                            <img src="./thumbs/thumb_5_encrypt_4.jpeg"  data-src="holder.js/100%x180" alt="thumb">
+                                <h3 class="caption">Bilderserie...</h3>
+                        </a>
+                        <noscript>
+                            <a href="images.html" class="thumbnail">
+                                <img src="./thumbs/thumb_5_encrypt_4.jpeg"  data-src="holder.js/100%x180" alt="thumb">
+                                <h3 class="caption">Bilderserie...</h3>
+                            </a>
+                        </noscript>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+            </div> <!-- rowend -->
+            <div class="jumbotron alert-success">
+<hr class="featurette-divider">
+                    <h2 class="text-center">
+                    Für jeden Empfänger, für den ein Schlüssel importiert wurde werden nun die Emails <strong>automatisch</strong> verschlüsselt. <span class="glyphicon glyphicon-lock"></span> </h2>
+            </div>
+
+        </div>
+
+<!-- Bilder Slideshows -->
+
+    <!-- 1thunder -->
+        <div class="modal fade" id="modal1" tabindex="-1" role="dialog" aria-labelledby="PictureView" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">
+                            <span aria-hidden="true">&times;</span><span class="sr-only">Schließen</span>
+                        </button>
+                        <h4 class="modal-title" >Bilderserie</h4>
+                    </div>
+                    <div class="modal-body center">
+
+                        <div id="carousel-1a" class="carousel slide" data-interval="false" data-ride="carousel">
+                            <!-- Positionsanzeiger -->
+                            <ol class="carousel-indicators blackindicator">
+                                <li data-target="#carousel-1a" data-slide-to="0" class="active"></li>
+                                <li data-target="#carousel-1a" data-slide-to="1"></li>
+                                <li data-target="#carousel-1a" data-slide-to="2"></li>
+                                <li data-target="#carousel-1a" data-slide-to="3"></li>
+                                <li data-target="#carousel-1a" data-slide-to="4"></li>
+                            </ol>
+
+                            <!-- Verpackung für die Elemente -->
+                            <div class="carousel-inner">
+                                <div class="item active">
+                                        <img src="./imgs/blank.jpg" > 
+                                        <div class="hidden"> ./imgs/1_thunder_1.jpeg </div>
+                                        <div class="carousel-caption blackcaption">
+                                        </div>
+                                </div>
+                                <div class="item">
+                                        <img src="./imgs/blank.jpg" > 
+                                        <div class="hidden">./imgs/1_thunder_2.jpeg </div> 
+                                        <div class="carousel-caption blackcaption">
+                                        </div>
+                                </div>
+                                <div class="item">
+                                        <img src="./imgs/blank.jpg" > 
+                                        <div class="hidden">./imgs/1_thunder_3.jpeg </div> 
+                                        <div class="carousel-caption blackcaption">
+                                        </div>
+                                </div>
+                                <div class="item">
+                                        <img src="./imgs/blank.jpg" > 
+                                        <div class="hidden">./imgs/1_thunder_4.jpeg </div> 
+                                        <div class="carousel-caption blackcaption">
+                                        </div>
+                                </div>
+                                <div class="item">
+                                        <img src="./imgs/blank.jpg" > 
+                                        <div class="hidden">./imgs/1_thunder_5.jpeg </div> 
+                                        <div class="carousel-caption blackcaption">
+                                        </div>
+                                </div>
+                                Thunderbird Installation 
+                            </div>
+
+                            <!-- Schalter -->
+                            <a class="left carousel-control" href="#carousel-1a" role="button" data-slide="prev">
+                                <span class="glyphicon glyphicon-chevron-left"></span>
+                            </a>
+                            <a class="right carousel-control" href="#carousel-1a" role="button" data-slide="next">
+                                <span class="glyphicon glyphicon-chevron-right"></span>
+                            </a>
+                        </div>
+
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Schließen</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    <!-- 2thunder -->
+        <div class="modal fade" id="modal2" tabindex="-1" role="dialog" aria-labelledby="PictureView" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">
+                            <span aria-hidden="true">&times;</span><span class="sr-only">Schließen</span>
+                        </button>
+                        <h4 class="modal-title" >Bilderserie</h4>
+                    </div>
+                    <div class="modal-body center">
+
+                        <div id="carousel-1b" class="carousel slide" data-interval="false" data-ride="carousel">
+                            <!-- Positionsanzeiger -->
+                            <ol class="carousel-indicators blackindicator">
+                                <li data-target="#carousel-1b" data-slide-to="0" class="active"></li>
+                                <li data-target="#carousel-1b" data-slide-to="1"></li>
+                                <li data-target="#carousel-1b" data-slide-to="2"></li>
+                            </ol>
+
+                            <!-- Verpackung für die Elemente -->
+                            <div class="carousel-inner">
+                                <div class="item active">
+                                        <img src="./imgs/blank.jpg" > 
+                                        <div class="hidden">./imgs/2_thunder_1.jpeg </div> 
+                                        <div class="carousel-caption blackcaption">
+                                        </div>
+                                </div>
+                                <div class="item">
+                                        <img src="./imgs/blank.jpg" > 
+                                        <div class="hidden">./imgs/2_thunder_2.jpeg </div> 
+                                        <div class="carousel-caption blackcaption">
+                                        </div>
+                                </div>
+                                <div class="item">
+                                        <img src="./imgs/blank.jpg" > 
+                                        <div class="hidden">./imgs/2_thunder_3.jpeg </div> 
+                                        <div class="carousel-caption blackcaption">
+                                        </div>
+                                </div>
+                                Thunderbird einrichten
+                            </div>
+
+                            <!-- Schalter -->
+                            <a class="left carousel-control" href="#carousel-1b" role="button" data-slide="prev">
+                                <span class="glyphicon glyphicon-chevron-left"></span>
+                            </a>
+                            <a class="right carousel-control" href="#carousel-1b" role="button" data-slide="next">
+                                <span class="glyphicon glyphicon-chevron-right"></span>
+                            </a>
+                        </div>
+
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Schließen</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    <!-- gpg -->
+        <div class="modal fade" id="modal3" tabindex="-1" role="dialog" aria-labelledby="PictureView" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">
+                            <span aria-hidden="true">&times;</span><span class="sr-only">Schließen</span>
+                        </button>
+                        <h4 class="modal-title" >Bilderserie</h4>
+                    </div>
+                    <div class="modal-body center">
+
+                        <div id="carousel-2a" class="carousel slide" data-interval="false" data-ride="carousel">
+                            <!-- Positionsanzeiger -->
+                            <ol class="carousel-indicators blackindicator">
+                                <li data-target="#carousel-2a" data-slide-to="0" class="active"></li>
+                                <li data-target="#carousel-2a" data-slide-to="1"></li>
+                                <li data-target="#carousel-2a" data-slide-to="2"></li>
+                                <li data-target="#carousel-2a" data-slide-to="3"></li>
+                                <li data-target="#carousel-2a" data-slide-to="4"></li>
+                                <li data-target="#carousel-2a" data-slide-to="5"></li>
+                                <li data-target="#carousel-2a" data-slide-to="6"></li>
+                            </ol>
+
+                            <!-- Verpackung für die Elemente -->
+                            <div class="carousel-inner">
+                                <div class="item active">
+                                        <img src="./imgs/blank.jpg" > 
+                                        <div class="hidden">./imgs/3_gpg4win_1.jpeg </div> 
+                                        <div class="carousel-caption blackcaption">
+                                        </div>
+                                </div>
+                                <div class="item">
+                                        <img src="./imgs/blank.jpg" > 
+                                        <div class="hidden">./imgs/3_gpg4win_1.jpeg </div> 
+                                        <div class="carousel-caption blackcaption">
+                                        </div>
+                                </div>
+                                <div class="item">
+                                        <img src="./imgs/blank.jpg" > 
+                                        <div class="hidden">./imgs/3_gpg4win_2.jpeg </div> 
+                                        <div class="carousel-caption blackcaption">
+                                        </div>
+                                </div>
+                                <div class="item">
+                                        <img src="./imgs/blank.jpg" > 
+                                        <div class="hidden">./imgs/3_gpg4win_3.jpeg </div> 
+                                        <div class="carousel-caption blackcaption">
+                                        </div>
+                                </div>
+                                <div class="item">
+                                        <img src="./imgs/blank.jpg" > 
+                                        <div class="hidden">./imgs/3_gpg4win_4.jpeg </div> 
+                                        <div class="carousel-caption blackcaption">
+                                        </div>
+                                </div>
+                                <div class="item">
+                                        <img src="./imgs/blank.jpg" > 
+                                        <div class="hidden">./imgs/3_gpg4win_5.jpeg </div> 
+                                        <div class="carousel-caption blackcaption">
+                                        </div>
+                                </div>
+                                <div class="item">
+                                        <img src="./imgs/blank.jpg" > 
+                                        <div class="hidden">./imgs/3_gpg4win_6.jpeg </div> 
+                                        <div class="carousel-caption blackcaption">
+                                        </div>
+                                </div>
+                                <div class="item">
+                                        <img src="./imgs/blank.jpg" > 
+                                        <div class="hidden">./imgs/3_gpg4win_7.jpeg </div> 
+                                        <div class="carousel-caption blackcaption">
+                                        </div>
+                                </div>
+                                Gpg4Win Installation
+                            </div>
+
+                            <!-- Schalter -->
+                            <a class="left carousel-control" href="#carousel-2a" role="button" data-slide="prev">
+                                <span class="glyphicon glyphicon-chevron-left"></span>
+                            </a>
+                            <a class="right carousel-control" href="#carousel-2a" role="button" data-slide="next">
+                                <span class="glyphicon glyphicon-chevron-right"></span>
+                            </a>
+                        </div>
+
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Schließen</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    <!-- Enigmail -->
+        <div class="modal fade" id="modal4" tabindex="-1" role="dialog" aria-labelledby="PictureView" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">
+                            <span aria-hidden="true">&times;</span><span class="sr-only">Schließen</span>
+                        </button>
+                        <h4 class="modal-title" >Bilderserie</h4>
+                    </div>
+                    <div class="modal-body center">
+
+                        <div id="carousel-2b" class="carousel slide" data-interval="false" data-ride="carousel">
+                            <!-- Positionsanzeiger -->
+                            <ol class="carousel-indicators blackindicator">
+                                <li data-target="#carousel-2b" data-slide-to="0" class="active"></li>
+                                <li data-target="#carousel-2b" data-slide-to="1"></li>
+                                <li data-target="#carousel-2b" data-slide-to="2"></li>
+                            </ol>
+
+                            <!-- Verpackung für die Elemente -->
+                            <div class="carousel-inner">
+                                <div class="item active">
+                                        <img src="./imgs/blank.jpg" > 
+                                        <div class="hidden">./imgs/4_enigmail_1.jpeg </div> 
+                                        <div class="carousel-caption blackcaption">
+                                        </div>
+                                </div>
+                                <div class="item">
+                                        <img src="./imgs/blank.jpg" > 
+                                        <div class="hidden">./imgs/4_enigmail_2.jpeg </div> 
+                                        <div class="carousel-caption blackcaption">
+                                        </div>
+                                </div>
+                                <div class="item">
+                                        <img src="./imgs/blank.jpg" > 
+                                        <div class="hidden">./imgs/4_enigmail_3.jpeg </div> 
+                                        <div class="carousel-caption blackcaption">
+                                        </div>
+                                </div>
+                                Enigmail Installation
+                            </div>
+
+                            <!-- Schalter -->
+                            <a class="left carousel-control" href="#carousel-2b" role="button" data-slide="prev">
+                                <span class="glyphicon glyphicon-chevron-left"></span>
+                            </a>
+                            <a class="right carousel-control" href="#carousel-2b" role="button" data-slide="next">
+                                <span class="glyphicon glyphicon-chevron-right"></span>
+                            </a>
+                        </div>
+
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Schließen</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    <!-- Key -->
+        <div class="modal fade" id="modal5" tabindex="-1" role="dialog" aria-labelledby="PictureView" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">
+                            <span aria-hidden="true">&times;</span><span class="sr-only">Schließen</span>
+                        </button>
+                        <h4 class="modal-title" >Bilderserie</h4>
+                    </div>
+                    <div class="modal-body center">
+
+                        <div id="carousel-3a" class="carousel slide" data-interval="false" data-ride="carousel">
+                            <!-- Positionsanzeiger -->
+                            <ol class="carousel-indicators blackindicator">
+                                <li data-target="#carousel-3a" data-slide-to="0" class="active"></li>
+                                <li data-target="#carousel-3a" data-slide-to="1"></li>
+                                <li data-target="#carousel-3a" data-slide-to="2"></li>
+                                <li data-target="#carousel-3a" data-slide-to="3"></li>
+                                <li data-target="#carousel-3a" data-slide-to="4"></li>
+                                <li data-target="#carousel-3a" data-slide-to="5"></li>
+                                <li data-target="#carousel-3a" data-slide-to="6"></li>
+                                <li data-target="#carousel-3a" data-slide-to="7"></li>
+                            </ol>
+
+                            <!-- Verpackung für die Elemente -->
+                            <div class="carousel-inner">
+                                <div class="item active">
+                                        <img src="./imgs/blank.jpg" > 
+                                        <div class="hidden">./imgs/4_enigmail_4.jpeg </div> 
+                                        <div class="carousel-caption blackcaption">
+                                        </div>
+                                </div>
+                                <div class="item">
+                                        <img src="./imgs/blank.jpg" > 
+                                        <div class="hidden">./imgs/4_enigmail_5.jpeg </div> 
+                                        <div class="carousel-caption blackcaption">
+                                        </div>
+                                </div>
+                                <div class="item">
+                                        <img src="./imgs/blank.jpg" > 
+                                        <div class="hidden">./imgs/4_enigmail_6.jpeg </div> 
+                                        <div class="carousel-caption blackcaption">
+                                        </div>
+                                </div>
+                                <div class="item">
+                                        <img src="./imgs/blank.jpg" > 
+                                        <div class="hidden">./imgs/4_enigmail_7.jpeg </div> 
+                                        <div class="carousel-caption blackcaption">
+                                        </div>
+                                </div>
+                                <div class="item">
+                                        <img src="./imgs/blank.jpg" > 
+                                        <div class="hidden">./imgs/4_enigmail_8.jpeg </div> 
+                                        <div class="carousel-caption blackcaption">
+                                        </div>
+                                </div>
+                                <div class="item">
+                                        <img src="./imgs/blank.jpg" > 
+                                        <div class="hidden">./imgs/4_enigmail_9.jpeg </div> 
+                                        <div class="carousel-caption blackcaption">
+                                            <h2> Ein "sicheres" Passwort wählen </h2>
+                                        </div>
+                                </div>
+                                <div class="item">
+                                        <img src="./imgs/blank.jpg" > 
+                                        <div class="hidden">./imgs/4_enigmail_10.jpeg </div> 
+                                        <div class="carousel-caption blackcaption">
+                                        </div>
+                                </div>
+                                <div class="item">
+                                        <img src="./imgs/blank.jpg" > 
+                                        <div class="hidden">./imgs/4_enigmail_11.jpeg </div> 
+                                        <div class="carousel-caption blackcaption">
+                                        </div>
+                                </div>
+                                Enigmail konfigurieren und Schlüssel erzeugen.
+                            </div>
+
+                            <!-- Schalter -->
+                            <a class="left carousel-control" href="#carousel-3a" role="button" data-slide="prev">
+                                <span class="glyphicon glyphicon-chevron-left"></span>
+                            </a>
+                            <a class="right carousel-control" href="#carousel-3a" role="button" data-slide="next">
+                                <span class="glyphicon glyphicon-chevron-right"></span>
+                            </a>
+                        </div>
+
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Schließen</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    <!-- Zertifikat -->
+        <div class="modal fade" id="modal6" tabindex="-1" role="dialog" aria-labelledby="PictureView" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">
+                            <span aria-hidden="true">&times;</span><span class="sr-only">Schließen</span>
+                        </button>
+                        <h4 class="modal-title" >Bilderserie</h4>
+                    </div>
+                    <div class="modal-body center">
+
+                        <div id="carousel-3b" class="carousel slide" data-interval="false" data-ride="carousel">
+                            <!-- Positionsanzeiger -->
+                            <ol class="carousel-indicators blackindicator">
+                                <li data-target="#carousel-3b" data-slide-to="0" class="active"></li>
+                                <li data-target="#carousel-3b" data-slide-to="1"></li>
+                                <li data-target="#carousel-3b" data-slide-to="2"></li>
+                                <li data-target="#carousel-3b" data-slide-to="3"></li>
+                            </ol>
+
+                            <!-- Verpackung für die Elemente -->
+                            <div class="carousel-inner">
+                                <div class="item active">
+                                        <img src="./imgs/blank.jpg" > 
+                                        <div class="hidden">./imgs/4_enigmail_12.jpeg </div> 
+                                        <div class="carousel-caption blackcaption">
+                                        </div>
+                                </div>
+                                <div class="item">
+                                        <img src="./imgs/blank.jpg" > 
+                                        <div class="hidden">./imgs/4_enigmail_13.jpeg </div> 
+                                        <div class="carousel-caption blackcaption">
+                                        </div>
+                                </div>
+                                <div class="item">
+                                        <img src="./imgs/blank.jpg" > 
+                                        <div class="hidden">./imgs/4_enigmail_14.jpeg </div> 
+                                        <div class="carousel-caption blackcaption">
+                                        </div>
+                                </div>
+                                <div class="item">
+                                        <img src="./imgs/blank.jpg" > 
+                                        <div class="hidden">./imgs/4_enigmail_15.jpeg </div> 
+                                        <div class="carousel-caption blackcaption">
+                                        </div>
+                                </div>
+                                Wiederufszertifikat erzeugen. 
+                            </div>
+
+                            <!-- Schalter -->
+                            <a class="left carousel-control" href="#carousel-3b" role="button" data-slide="prev">
+                                <span class="glyphicon glyphicon-chevron-left"></span>
+                            </a>
+                            <a class="right carousel-control" href="#carousel-3b" role="button" data-slide="next">
+                                <span class="glyphicon glyphicon-chevron-right"></span>
+                            </a>
+                        </div>
+
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Schließen</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    <!-- empfangen -->
+        <div class="modal fade" id="modal7" tabindex="-1" role="dialog" aria-labelledby="PictureView" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">
+                            <span aria-hidden="true">&times;</span><span class="sr-only">Schließen</span>
+                        </button>
+                        <h4 class="modal-title" >Bilderserie</h4>
+                    </div>
+                    <div class="modal-body center">
+
+                        <div id="carousel-4a" class="carousel slide" data-interval="false" data-ride="carousel">
+                            <!-- Positionsanzeiger -->
+                            <ol class="carousel-indicators blackindicator">
+                                <li data-target="#carousel-4a" data-slide-to="0" class="active"></li>
+                                <li data-target="#carousel-4a" data-slide-to="1"></li>
+                                <li data-target="#carousel-4a" data-slide-to="2"></li>
+                                <li data-target="#carousel-4a" data-slide-to="3"></li>
+                                <li data-target="#carousel-4a" data-slide-to="4"></li>
+                                <li data-target="#carousel-4a" data-slide-to="5"></li>
+                                <li data-target="#carousel-4a" data-slide-to="6"></li>
+                                <li data-target="#carousel-4a" data-slide-to="7"></li>
+                            </ol>
+
+                            <!-- Verpackung für die Elemente -->
+                            <div class="carousel-inner">
+                                <div class="item active">
+                                        <img src="./imgs/blank.jpg" > 
+                                        <div class="hidden">./imgs/5_encrypt_7.jpeg </div> 
+                                        <div class="carousel-caption blackcaption">
+                                        </div>
+                                </div>
+                                <div class="item">
+                                        <img src="./imgs/blank.jpg" > 
+                                        <div class="hidden">./imgs/5_encrypt_9.jpeg </div> 
+                                        <div class="carousel-caption blackcaption">
+                                        </div>
+                                </div>
+                                <div class="item">
+                                        <img src="./imgs/blank.jpg" > 
+                                        <div class="hidden">./imgs/5_encrypt_10.jpeg </div> 
+                                        <div class="carousel-caption blackcaption">
+                                        </div>
+                                </div>
+                                <div class="item">
+                                        <img src="./imgs/blank.jpg" > 
+                                        <div class="hidden">./imgs/5_encrypt_12.jpeg </div> 
+                                        <div class="carousel-caption blackcaption">
+                                        </div>
+                                </div>
+                                <div class="item">
+                                        <img src="./imgs/blank.jpg" > 
+                                        <div class="hidden">./imgs/5_encrypt_13.jpeg </div> 
+                                        <div class="carousel-caption blackcaption">
+                                        </div>
+                                </div>
+                                <div class="item">
+                                        <img src="./imgs/blank.jpg" > 
+                                        <div class="hidden">./imgs/5_encrypt_14.jpeg </div> 
+                                        <div class="carousel-caption blackcaption">
+                                        </div>
+                                </div>
+                                <div class="item">
+                                        <img src="./imgs/blank.jpg" > 
+                                        <div class="hidden">./imgs/5_encrypt_2.jpeg </div> 
+                                        <div class="carousel-caption blackcaption">
+                                        </div>
+                                </div>
+                                <div class="item">
+                                        <img src="./imgs/blank.jpg" > 
+                                        <div class="hidden">./imgs/5_encrypt_20.jpeg </div> 
+                                        <div class="carousel-caption blackcaption">
+                                        </div>
+                                </div>
+                                Verteilen des öffentlichen Schlüssels um verschlüsselte Emails zu empfangen.
+                            </div>
+
+                            <!-- Schalter -->
+                            <a class="left carousel-control" href="#carousel-4a" role="button" data-slide="prev">
+                                <span class="glyphicon glyphicon-chevron-left"></span>
+                            </a>
+                            <a class="right carousel-control" href="#carousel-4a" role="button" data-slide="next">
+                                <span class="glyphicon glyphicon-chevron-right"></span>
+                            </a>
+                        </div>
+
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Schließen</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    <!-- versenden -->
+        <div class="modal fade" id="modal8" tabindex="-1" role="dialog" aria-labelledby="PictureView" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">
+                            <span aria-hidden="true">&times;</span><span class="sr-only">Schließen</span>
+                        </button>
+                        <h4 class="modal-title" >Bilderserie</h4>
+                    </div>
+                    <div class="modal-body center">
+
+                        <div id="carousel-4b" class="carousel slide" data-interval="false" data-ride="carousel">
+                            <!-- Positionsanzeiger -->
+                            <ol class="carousel-indicators blackindicator">
+                                <li data-target="#carousel-4b" data-slide-to="0" class="active"></li>
+                                <li data-target="#carousel-4b" data-slide-to="1"></li>
+                                <li data-target="#carousel-4b" data-slide-to="2"></li>
+                                <li data-target="#carousel-4b" data-slide-to="3"></li>
+                                <li data-target="#carousel-4b" data-slide-to="4"></li>
+                                <li data-target="#carousel-4b" data-slide-to="5"></li>
+                            </ol>
+
+                            <!-- Verpackung für die Elemente -->
+                            <div class="carousel-inner">
+                                <div class="item active">
+                                        <img src="./imgs/blank.jpg" > 
+                                        <div class="hidden">./imgs/5_encrypt_17.jpeg </div> 
+                                        <div class="carousel-caption blackcaption">
+                                        </div>
+                                </div>
+                                <div class="item">
+                                        <img src="./imgs/blank.jpg" > 
+                                        <div class="hidden">./imgs/5_encrypt_18.jpeg </div> 
+                                        <div class="carousel-caption blackcaption">
+                                        </div>
+                                </div>
+                                <div class="item">
+                                        <img src="./imgs/blank.jpg" > 
+                                        <div class="hidden">./imgs/5_encrypt_3.jpeg </div> 
+                                        <div class="carousel-caption blackcaption">
+                                        </div>
+                                </div>
+                                <div class="item">
+                                        <img src="./imgs/blank.jpg" > 
+                                        <div class="hidden">./imgs/5_encrypt_4.jpeg </div> 
+                                        <div class="carousel-caption blackcaption">
+                                        </div>
+                                </div>
+                                <div class="item">
+                                        <img src="./imgs/blank.jpg" > 
+                                        <div class="hidden">./imgs/5_encrypt_5.jpeg </div> 
+                                        <div class="carousel-caption blackcaption">
+                                        </div>
+                                </div>
+                                <div class="item">
+                                        <img src="./imgs/blank.jpg" > 
+                                        <div class="hidden">./imgs/5_encrypt_6.jpeg </div> 
+                                        <div class="carousel-caption blackcaption">
+                                        </div>
+                                </div>
+                                Importieren öffentlicher Schlüssel um verschlüsselte Emails zu versenden.
+                            </div>
+
+                            <!-- Schalter -->
+                            <a class="left carousel-control" href="#carousel-4b" role="button" data-slide="prev">
+                                <span class="glyphicon glyphicon-chevron-left"></span>
+                            </a>
+                            <a class="right carousel-control" href="#carousel-4b" role="button" data-slide="next">
+                                <span class="glyphicon glyphicon-chevron-right"></span>
+                            </a>
+                        </div>
+
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Schließen</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container footer">
+            <p>© Footer 2014</p>
+        </div>
+        <!-- jQuery (wird für Bootstrap JavaScript-Plugins benötigt) -->
+        <script src="js/jquery.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/main.js"></script>
+    </body>
+</html>
+
