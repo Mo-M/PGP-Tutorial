@@ -5,7 +5,7 @@ description: Einfache Anleitung zum Austausch verschlüsselter E-Mails
 baseurl: "/kryptomail/"
 url: "https://svs.informatik.uni-hamburg.de" 
 systems: [Windows, MacOS, Linux]
-exclude: screens
+exclude: [screens]
 
 # Build settings
 markdown: kramdown
