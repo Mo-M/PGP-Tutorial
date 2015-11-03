@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="author" content="Moritz Mönnich">
-    <title> E-Mail-Verschlüsselung - Linux - Thunderbird - Benutzervertrauen </title>
+    <title> E-Mail-Verschlüsselung - archiv - Thunderbird - Schlüssel export und import </title>
     <meta name="description" content="Einfache Anleitung zum Austausch verschlüsselter E-Mails">
 
     <!-- Bootstrap -->
@@ -393,7 +393,7 @@
 
 <div class="container-fluid pull-right">
     <div class="a2a_kit a2a_kit_size_32 a2a_default_style">
-        <a class="a2a_dd" href="https://www.addtoany.com/share_save?linkurl=/Linux/Thunderbird/trust/index.html&amp;linkname=E-Mail-Verschlüsselung"></a>
+        <a class="a2a_dd" href="https://www.addtoany.com/share_save?linkurl=/archiv/2015-03-24/Linux/Thunderbird/importkey/index.html&amp;linkname=E-Mail-Verschlüsselung"></a>
         <a class="a2a_button_facebook"></a>
         <a class="a2a_button_twitter"></a>
         <a class="a2a_button_google_plus"></a>
@@ -425,9 +425,6 @@
      
  
     
-     
- 
-    
     
         <!-- Change background color every Step -->
         
@@ -437,21 +434,13 @@
 
             <div class="col-md-12">
                 
-                <p class="h1 text-center"><span class="label label-primary"> Schlüssel-Vertrauen</span></p>
+                <p class="h1 text-center"><span class="label label-primary"> Schlüssel-Export</span></p>
                 
             </div>
             <div class="col-md-8 col-md-push-4">
-                <h2> <span class="label label-primary"> Schritt 1</span> Wann ist ein Schlüssel vertrauenswürdig?</h2>
+                <h2> <span class="label label-primary"> Schritt 1</span> Vorhandenen privaten Schlüssel exportieren</h2>
                 <div class="lead">
-                <p>Erst wenn man sich sicher sein kann, dass der Schlüssel dem Kommunikationspartner wirklich angehört, kann man dem Schlüssel vertrauen.</p>
-
-<p>Wie kann man sicherstellen, dass der Schlüssel dem Kommunikationspartner wirklich angehört:</p>
-
-<ul>
-  <li>Direkter Schlüsselaustausch, z.B USB Stick, CD …</li>
-  <li>Überprüfen des Fingerabdruckes.</li>
-  <li>Schlüssel wurde von einem Freund, dem man bereits vertraut unterzeichnet. (<a href="/Windows/Thunderbird/weboftrust/">Web of Trust</a>).</li>
-</ul>
+                <p>Um verschlüsselten E-Mail-Verkehr, mit der selben E-Mail-Adresse, auf unterschiedlichen Computern zu betreiben, muss zunächst der <strong>geheime Schlüssel</strong> exportiert werden.</p>
 
                 </div>
                 
@@ -460,8 +449,7 @@
                     <button type="button" class="close" data-toggle="collapse" data-parent="#accordion" href="#info1">
                         <span aria-hidden="true">&times;</span><span class="sr-only">Schließen</span>
                     </button>
-                    <p>Mit Hilfe der Vertrauenswürdigkeit des Schlüssels, kann man sicherstellen, dass der Absender einer unterschriebenen Mail, diese auch selber verfasst hat und diese unverändert angekommen ist.<br />
-Es verhindert das Fälschen oder Verändern einer E-Mail .</p>
+                    <p>Falls der Schlüssel nicht von einem Linux Computer exportiert werden soll, folge der entsprechenden Anleitung für <a href="../../../MacOS/Thunderbird/importkey/">MacOS</a> oder <a href="../../../Windows/Thunderbird/importkey/">Windows</a>.</p>
 
                 </div>
                 <br>
@@ -473,12 +461,12 @@ Es verhindert das Fälschen oder Verändern einer E-Mail .</p>
             <div class="col-md-4 col-md-pull-8">
                 <div class="col-xs-5 col-md-8">
                     <a href="#" onclick="loadImgs('modal1'); $('#carousel-1').carousel(0)" class="thumbnail jsonly" data-toggle="modal" data-target="#modal1">
-                        <img src="/kryptomail/thumbs/linux_9_trust_3.jpg"  data-src="holder.js/100%x180" alt="thumb">
+                        <img src="/kryptomail/thumbs/linux_8_import_3.jpg"  data-src="holder.js/100%x180" alt="thumb">
                         <h3 class="caption">Bilderserie...</h3>
                     </a>
                     <noscript>
-                        <a href="/Linux/Thunderbird/trust/1.html" class="thumbnail"> 
-                            <img src="/kryptomail/thumbs/linux_9_trust_3.jpg"  data-src="holder.js/100%x180" alt="thumb">
+                        <a href="/archiv/2015-03-24/Linux/Thunderbird/importkey/1.html" class="thumbnail"> 
+                            <img src="/kryptomail/thumbs/linux_8_import_3.jpg"  data-src="holder.js/100%x180" alt="thumb">
                             <h3 class="caption">Bilderserie...</h3>
                         </a>
                     </noscript>
@@ -518,6 +506,16 @@ Es verhindert das Fälschen oder Verändern einer E-Mail .</p>
                                     
                                     
                                 
+                                    
+                                        <li data-target="#carousel-1" data-slide-to="3"></li>
+                                    
+                                    
+                                
+                                    
+                                        <li data-target="#carousel-1" data-slide-to="4"></li>
+                                    
+                                    
+                                
                             </ol>
 
                             <!-- Verpackung für die Elemente -->
@@ -528,8 +526,8 @@ Es verhindert das Fälschen oder Verändern einer E-Mail .</p>
                                     <div class="item active">
                                     
                                     
-                                    <img src="/kryptomail/imgs/blank.jpg" alt="linux_9_trust_1.jpg" > 
-                                    <div class="hidden"> /kryptomail/imgs/linux_9_trust_1.jpg </div>
+                                    <img src="/kryptomail/imgs/blank.jpg" alt="linux_8_import_1.jpg" > 
+                                    <div class="hidden"> /kryptomail/imgs/linux_8_import_1.jpg </div>
                                         <div class="carousel-caption blackcaption">
                                         </div>
                                     </div>
@@ -538,8 +536,8 @@ Es verhindert das Fälschen oder Verändern einer E-Mail .</p>
                                     <div class="item">
                                     
                                     
-                                    <img src="/kryptomail/imgs/blank.jpg" alt="linux_9_trust_2.jpg" > 
-                                    <div class="hidden"> /kryptomail/imgs/linux_9_trust_2.jpg </div>
+                                    <img src="/kryptomail/imgs/blank.jpg" alt="linux_8_import_2.jpg" > 
+                                    <div class="hidden"> /kryptomail/imgs/linux_8_import_2.jpg </div>
                                         <div class="carousel-caption blackcaption">
                                         </div>
                                     </div>
@@ -548,13 +546,33 @@ Es verhindert das Fälschen oder Verändern einer E-Mail .</p>
                                     <div class="item">
                                     
                                     
-                                    <img src="/kryptomail/imgs/blank.jpg" alt="linux_9_trust_3.jpg" > 
-                                    <div class="hidden"> /kryptomail/imgs/linux_9_trust_3.jpg </div>
+                                    <img src="/kryptomail/imgs/blank.jpg" alt="linux_8_import_3.jpg" > 
+                                    <div class="hidden"> /kryptomail/imgs/linux_8_import_3.jpg </div>
                                         <div class="carousel-caption blackcaption">
                                         </div>
                                     </div>
                                 
-                                Wann ist ein Schlüssel vertrauenswürdig?
+                                    
+                                    <div class="item">
+                                    
+                                    
+                                    <img src="/kryptomail/imgs/blank.jpg" alt="linux_8_import_4.jpg" > 
+                                    <div class="hidden"> /kryptomail/imgs/linux_8_import_4.jpg </div>
+                                        <div class="carousel-caption blackcaption">
+                                        </div>
+                                    </div>
+                                
+                                    
+                                    <div class="item">
+                                    
+                                    
+                                    <img src="/kryptomail/imgs/blank.jpg" alt="linux_8_import_5.jpg" > 
+                                    <div class="hidden"> /kryptomail/imgs/linux_8_import_5.jpg </div>
+                                        <div class="carousel-caption blackcaption">
+                                        </div>
+                                    </div>
+                                
+                                Vorhandenen privaten Schlüssel exportieren
                             </div>
 
                             <!-- Schalter -->
@@ -607,27 +625,6 @@ Es verhindert das Fälschen oder Verändern einer E-Mail .</p>
      
  
     
-     
- 
-    
-     
- 
-    
-     
- 
-    
-     
- 
-    
-     
- 
-    
-     
- 
-    
-     
- 
-    
     
         <!-- Change background color every Step -->
         
@@ -637,39 +634,28 @@ Es verhindert das Fälschen oder Verändern einer E-Mail .</p>
 
             <div class="col-md-12">
                 
-                <p class="h1 text-center"><span class="label label-primary"> Fingerabdruck überprüfen</span></p>
+                <p class="h1 text-center"><span class="label label-primary"> Schlüssel-Import</span></p>
                 
             </div>
             <div class="col-md-8 col-md-push-4">
-                <h2> <span class="label label-primary"> Schritt 2a</span> eigenen Fingerabdruck prüfen</h2>
+                <h2> <span class="label label-primary"> Schritt 2</span> Exportierten Schlüssel importieren</h2>
                 <div class="lead">
-                <p>Um zu überprüfen, ob jemand anderes wirklich <strong>deinen</strong> Schlüssel importiert hat, kann der Schlüssel mit dem Fingerabdruck deines Schlüssels verglichen werden.</p>
+                <p>Der exportierte Schlüssel kann nun auf einem anderen Computer importiert werden.</p>
 
                 </div>
-                
-                <a class="btn btn-info btn-xs" data-toggle="collapse" data-parent="#accordion" href="#info2a">Infos <span class="caret"></span></a>
-                <div id="info2a" class="well">
-                    <button type="button" class="close" data-toggle="collapse" data-parent="#accordion" href="#info2a">
-                        <span aria-hidden="true">&times;</span><span class="sr-only">Schließen</span>
-                    </button>
-                    <p>Der Fingerabdruck ist eine Zeichenkette, die deinen öffentlichen Schlüssel eindeutig identifiziert.</p>
-
-                </div>
-                <br>
-                <br>
                 
 
             </div>
 
             <div class="col-md-4 col-md-pull-8">
                 <div class="col-xs-5 col-md-8">
-                    <a href="#" onclick="loadImgs('modal2a'); $('#carousel-2a').carousel(0)" class="thumbnail jsonly" data-toggle="modal" data-target="#modal2a">
-                        <img src="/kryptomail/thumbs/linux_9_trust_5.jpg"  data-src="holder.js/100%x180" alt="thumb">
+                    <a href="#" onclick="loadImgs('modal2'); $('#carousel-2').carousel(0)" class="thumbnail jsonly" data-toggle="modal" data-target="#modal2">
+                        <img src="/kryptomail/thumbs/linux_8_import_9.jpg"  data-src="holder.js/100%x180" alt="thumb">
                         <h3 class="caption">Bilderserie...</h3>
                     </a>
                     <noscript>
-                        <a href="/Linux/Thunderbird/trust/2a.html" class="thumbnail"> 
-                            <img src="/kryptomail/thumbs/linux_9_trust_5.jpg"  data-src="holder.js/100%x180" alt="thumb">
+                        <a href="/archiv/2015-03-24/Linux/Thunderbird/importkey/2.html" class="thumbnail"> 
+                            <img src="/kryptomail/thumbs/linux_8_import_9.jpg"  data-src="holder.js/100%x180" alt="thumb">
                             <h3 class="caption">Bilderserie...</h3>
                         </a>
                     </noscript>
@@ -678,7 +664,7 @@ Es verhindert das Fälschen oder Verändern einer E-Mail .</p>
             </div>
         </div> 
 
-        <div class="modal fade" id="modal2a" tabindex="-1" role="dialog" aria-labelledby="PictureView" aria-hidden="true">
+        <div class="modal fade" id="modal2" tabindex="-1" role="dialog" aria-labelledby="PictureView" aria-hidden="true">
             <div class="modal-dialog modal-lg">
                 <div class="modal-content">
                     <div class="modal-header">
@@ -689,23 +675,48 @@ Es verhindert das Fälschen oder Verändern einer E-Mail .</p>
                     </div>
                     <div class="modal-body center">
 
-                        <div id="carousel-2a" class="carousel slide" data-wrap="false" data-interval="false" data-ride="carousel">
+                        <div id="carousel-2" class="carousel slide" data-wrap="false" data-interval="false" data-ride="carousel">
                             <!-- Positionsanzeiger -->
                             <ol class="carousel-indicators blackindicator">
                                 
                                 
                                     
-                                        <li data-target="#carousel-2a" data-slide-to="0" class="active"></li>
+                                        <li data-target="#carousel-2" data-slide-to="0" class="active"></li>
                                         
                                     
                                 
                                     
-                                        <li data-target="#carousel-2a" data-slide-to="1"></li>
+                                        <li data-target="#carousel-2" data-slide-to="1"></li>
                                     
                                     
                                 
                                     
-                                        <li data-target="#carousel-2a" data-slide-to="2"></li>
+                                        <li data-target="#carousel-2" data-slide-to="2"></li>
+                                    
+                                    
+                                
+                                    
+                                        <li data-target="#carousel-2" data-slide-to="3"></li>
+                                    
+                                    
+                                
+                                    
+                                        <li data-target="#carousel-2" data-slide-to="4"></li>
+                                    
+                                    
+                                
+                                    
+                                        <li data-target="#carousel-2" data-slide-to="5"></li>
+                                    
+                                    
+                                
+                                    
+                                        <li data-target="#carousel-2" data-slide-to="6"></li>
+                                    
+                                    
+                                
+                                    
+                                        <li data-target="#carousel-2" data-slide-to="7"></li>
                                     
                                     
                                 
@@ -719,8 +730,8 @@ Es verhindert das Fälschen oder Verändern einer E-Mail .</p>
                                     <div class="item active">
                                     
                                     
-                                    <img src="/kryptomail/imgs/blank.jpg" alt="linux_9_trust_1.jpg" > 
-                                    <div class="hidden"> /kryptomail/imgs/linux_9_trust_1.jpg </div>
+                                    <img src="/kryptomail/imgs/blank.jpg" alt="linux_8_import_6.jpg" > 
+                                    <div class="hidden"> /kryptomail/imgs/linux_8_import_6.jpg </div>
                                         <div class="carousel-caption blackcaption">
                                         </div>
                                     </div>
@@ -729,8 +740,8 @@ Es verhindert das Fälschen oder Verändern einer E-Mail .</p>
                                     <div class="item">
                                     
                                     
-                                    <img src="/kryptomail/imgs/blank.jpg" alt="linux_9_trust_4.jpg" > 
-                                    <div class="hidden"> /kryptomail/imgs/linux_9_trust_4.jpg </div>
+                                    <img src="/kryptomail/imgs/blank.jpg" alt="linux_8_import_7.jpg" > 
+                                    <div class="hidden"> /kryptomail/imgs/linux_8_import_7.jpg </div>
                                         <div class="carousel-caption blackcaption">
                                         </div>
                                     </div>
@@ -739,20 +750,70 @@ Es verhindert das Fälschen oder Verändern einer E-Mail .</p>
                                     <div class="item">
                                     
                                     
-                                    <img src="/kryptomail/imgs/blank.jpg" alt="linux_9_trust_5.jpg" > 
-                                    <div class="hidden"> /kryptomail/imgs/linux_9_trust_5.jpg </div>
+                                    <img src="/kryptomail/imgs/blank.jpg" alt="linux_8_import_8.jpg" > 
+                                    <div class="hidden"> /kryptomail/imgs/linux_8_import_8.jpg </div>
                                         <div class="carousel-caption blackcaption">
                                         </div>
                                     </div>
                                 
-                                eigenen Fingerabdruck prüfen
+                                    
+                                    <div class="item">
+                                    
+                                    
+                                    <img src="/kryptomail/imgs/blank.jpg" alt="linux_8_import_9.jpg" > 
+                                    <div class="hidden"> /kryptomail/imgs/linux_8_import_9.jpg </div>
+                                        <div class="carousel-caption blackcaption">
+                                        </div>
+                                    </div>
+                                
+                                    
+                                    <div class="item">
+                                    
+                                    
+                                    <img src="/kryptomail/imgs/blank.jpg" alt="linux_8_import_10.jpg" > 
+                                    <div class="hidden"> /kryptomail/imgs/linux_8_import_10.jpg </div>
+                                        <div class="carousel-caption blackcaption">
+                                        </div>
+                                    </div>
+                                
+                                    
+                                    <div class="item">
+                                    
+                                    
+                                    <img src="/kryptomail/imgs/blank.jpg" alt="linux_8_import_11.jpg" > 
+                                    <div class="hidden"> /kryptomail/imgs/linux_8_import_11.jpg </div>
+                                        <div class="carousel-caption blackcaption">
+                                        </div>
+                                    </div>
+                                
+                                    
+                                    <div class="item">
+                                    
+                                    
+                                    <img src="/kryptomail/imgs/blank.jpg" alt="linux_8_import_12.jpg" > 
+                                    <div class="hidden"> /kryptomail/imgs/linux_8_import_12.jpg </div>
+                                        <div class="carousel-caption blackcaption">
+                                        </div>
+                                    </div>
+                                
+                                    
+                                    <div class="item">
+                                    
+                                    
+                                    <img src="/kryptomail/imgs/blank.jpg" alt="linux_8_import_13.jpg" > 
+                                    <div class="hidden"> /kryptomail/imgs/linux_8_import_13.jpg </div>
+                                        <div class="carousel-caption blackcaption">
+                                        </div>
+                                    </div>
+                                
+                                Exportierten Schlüssel importieren
                             </div>
 
                             <!-- Schalter -->
-                            <a class="left carousel-control" href="#carousel-2a" role="button" data-slide="prev">
+                            <a class="left carousel-control" href="#carousel-2" role="button" data-slide="prev">
                                 <span class="glyphicon glyphicon-chevron-left"></span>
                             </a>
-                            <a class="right carousel-control" href="#carousel-2a" role="button" data-slide="next">
+                            <a class="right carousel-control" href="#carousel-2" role="button" data-slide="next">
                                 <span class="glyphicon glyphicon-chevron-right"></span>
                             </a>
                         </div>
@@ -780,163 +841,30 @@ Es verhindert das Fälschen oder Verändern einer E-Mail .</p>
      
  
     
+     
+ 
     
-        <!-- Change background color every Step -->
-        
-        
-        <div class="row bg-info">
-        
-
-            <div class="col-md-12">
-                
-                <hr class="container featurette-divider bg-info">
-                
-            </div>
-            <div class="col-md-8 col-md-push-4">
-                <h2> <span class="label label-primary"> Schritt 2b</span> fremden Fingerabdruck prüfen</h2>
-                <div class="lead">
-                <p>Lass dir den Fingerabdruck eines Freundes auf einem sicheren Weg zukommen, wie z.B übers Telephon oder handschriftlich mit direkter Übergabe. <br />
-Mit diesem kannst du das Benutzervertrauen festlegen.</p>
-
-                </div>
-                
-
-            </div>
-
-            <div class="col-md-4 col-md-pull-8">
-                <div class="col-xs-5 col-md-8">
-                    <a href="#" onclick="loadImgs('modal2b'); $('#carousel-2b').carousel(0)" class="thumbnail jsonly" data-toggle="modal" data-target="#modal2b">
-                        <img src="/kryptomail/thumbs/linux_9_trust_7.jpg"  data-src="holder.js/100%x180" alt="thumb">
-                        <h3 class="caption">Bilderserie...</h3>
-                    </a>
-                    <noscript>
-                        <a href="/Linux/Thunderbird/trust/2b.html" class="thumbnail"> 
-                            <img src="/kryptomail/thumbs/linux_9_trust_7.jpg"  data-src="holder.js/100%x180" alt="thumb">
-                            <h3 class="caption">Bilderserie...</h3>
-                        </a>
-                    </noscript>
-                </div>
-                <div class="clearfix"></div>
-            </div>
-        </div> 
-
-        <div class="modal fade" id="modal2b" tabindex="-1" role="dialog" aria-labelledby="PictureView" aria-hidden="true">
-            <div class="modal-dialog modal-lg">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <button type="button" class="close" data-dismiss="modal">
-                            <span aria-hidden="true">&times;</span><span class="sr-only">Schließen</span>
-                        </button>
-                        <h4 class="modal-title" >Bilderserie</h4>
-                    </div>
-                    <div class="modal-body center">
-
-                        <div id="carousel-2b" class="carousel slide" data-wrap="false" data-interval="false" data-ride="carousel">
-                            <!-- Positionsanzeiger -->
-                            <ol class="carousel-indicators blackindicator">
-                                
-                                
-                                    
-                                        <li data-target="#carousel-2b" data-slide-to="0" class="active"></li>
-                                        
-                                    
-                                
-                                    
-                                        <li data-target="#carousel-2b" data-slide-to="1"></li>
-                                    
-                                    
-                                
-                                    
-                                        <li data-target="#carousel-2b" data-slide-to="2"></li>
-                                    
-                                    
-                                
-                                    
-                                        <li data-target="#carousel-2b" data-slide-to="3"></li>
-                                    
-                                    
-                                
-                                    
-                                        <li data-target="#carousel-2b" data-slide-to="4"></li>
-                                    
-                                    
-                                
-                            </ol>
-
-                            <!-- Verpackung für die Elemente -->
-                            <div class="carousel-inner">
-                                
-                                
-                                    
-                                    <div class="item active">
-                                    
-                                    
-                                    <img src="/kryptomail/imgs/blank.jpg" alt="linux_9_trust_1.jpg" > 
-                                    <div class="hidden"> /kryptomail/imgs/linux_9_trust_1.jpg </div>
-                                        <div class="carousel-caption blackcaption">
-                                        </div>
-                                    </div>
-                                
-                                    
-                                    <div class="item">
-                                    
-                                    
-                                    <img src="/kryptomail/imgs/blank.jpg" alt="linux_9_trust_6.jpg" > 
-                                    <div class="hidden"> /kryptomail/imgs/linux_9_trust_6.jpg </div>
-                                        <div class="carousel-caption blackcaption">
-                                        </div>
-                                    </div>
-                                
-                                    
-                                    <div class="item">
-                                    
-                                    
-                                    <img src="/kryptomail/imgs/blank.jpg" alt="linux_9_trust_7.jpg" > 
-                                    <div class="hidden"> /kryptomail/imgs/linux_9_trust_7.jpg </div>
-                                        <div class="carousel-caption blackcaption">
-                                        </div>
-                                    </div>
-                                
-                                    
-                                    <div class="item">
-                                    
-                                    
-                                    <img src="/kryptomail/imgs/blank.jpg" alt="linux_9_trust_8.jpg" > 
-                                    <div class="hidden"> /kryptomail/imgs/linux_9_trust_8.jpg </div>
-                                        <div class="carousel-caption blackcaption">
-                                        </div>
-                                    </div>
-                                
-                                    
-                                    <div class="item">
-                                    
-                                    
-                                    <img src="/kryptomail/imgs/blank.jpg" alt="linux_9_trust_3.jpg" > 
-                                    <div class="hidden"> /kryptomail/imgs/linux_9_trust_3.jpg </div>
-                                        <div class="carousel-caption blackcaption">
-                                        </div>
-                                    </div>
-                                
-                                fremden Fingerabdruck prüfen
-                            </div>
-
-                            <!-- Schalter -->
-                            <a class="left carousel-control" href="#carousel-2b" role="button" data-slide="prev">
-                                <span class="glyphicon glyphicon-chevron-left"></span>
-                            </a>
-                            <a class="right carousel-control" href="#carousel-2b" role="button" data-slide="next">
-                                <span class="glyphicon glyphicon-chevron-right"></span>
-                            </a>
-                        </div>
-
-                    </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-default" data-dismiss="modal">Schließen</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-
+     
+ 
+    
+     
+ 
+    
+     
+ 
+    
+     
+ 
+    
+     
+ 
+    
+     
+ 
+    
+     
+ 
+    
      
  
     
@@ -1113,7 +1041,7 @@ Mit diesem kannst du das Benutzervertrauen festlegen.</p>
 <script type="text/javascript">
 var a2a_config = a2a_config || {};
 a2a_config.linkname = "E-Mail-Verschlüsselung - Linux - Thunderbird";
-a2a_config.linkurl = "/kryptomail/https://svs.informatik.uni-hamburg.de/Linux/Thunderbird/trust/index.html";
+a2a_config.linkurl = "/kryptomail/https://svs.informatik.uni-hamburg.de/archiv/2015-03-24/Linux/Thunderbird/importkey/index.html";
 a2a_config.onclick = 1;
 a2a_config.locale = "de";
 </script>
