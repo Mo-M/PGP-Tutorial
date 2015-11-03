@@ -26,9 +26,9 @@
                     {% assign pathlength = item.path | split: "/" | size %}
                     {% if item.system == page.system and item.system == folder and pathlength == 3 %}
                         {% if item.program == page.program %}
-                        <li class="active h4"><a href="{{item.url}}">{{item.program}}</a></li>
+                        <li class="active h4"><a href="{{site.baseurl}}{{item.url}}">{{item.program}}</a></li>
                         {% else %}
-                        <li class="h4"><a href="{{item.url}}">{{item.program}}</a></li>
+                        <li class="h4"><a href="{{site.baseurl}}{{item.url}}">{{item.program}}</a></li>
                         {% endif %}
                     {% endif %}
                 {% endfor %}
