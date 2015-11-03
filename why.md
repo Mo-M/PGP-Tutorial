@@ -1,10 +1,10 @@
 
-### Gründe für die Verschlüsselung des Email-Verkehrs
+### Gründe für die Verschlüsselung des E-Mail-Verkehrs
 
-Eine Email ist verlgeichbar mit einer Postkarte. Jeder, der diese auf dem Weg vom Sender zum Empfänger in die Hand bekommt kann diese Lesen.
+Eine E-Mail ist vergleichbar mit einer Postkarte. Jeder, der diese auf dem Weg vom Sender zum Empfänger in die Hand bekommt kann diese Lesen.
 
-1. Wer könnte Interesse haben, meine Emails zu lesen:
-    - Email Anbieter, der die Emails für personalisierte Werbung auswertet
+1. Wer könnte Interesse haben, meine E-Mails zu lesen:
+    - E-Mail-Anbieter, der die E-Mails für personalisierte Werbung auswertet
     - Erpresser
     - Betrüger
     - Geheimdienste

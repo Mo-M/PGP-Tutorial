@@ -1,9 +1,9 @@
 # Site settings
-title: Email-Verschlüsselung
-subtitle: Einfache Anleitung zum Austausch verschlüsselter Emails
-description: Einfache Anleitung zum Austausch verschlüsselter Emails
-baseurl: "/"
-url: "http://encrypt.adhara.uberspace.de" 
+title: E-Mail-Verschlüsselung
+subtitle: Einfache Anleitung zum Austausch verschlüsselter E-Mails
+description: Einfache Anleitung zum Austausch verschlüsselter E-Mails
+baseurl: "/kryptomail/"
+url: "https://svs.informatik.uni-hamburg.de" 
 systems: [Windows, MacOS, Linux]
 exclude: screens
 
