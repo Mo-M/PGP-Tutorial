@@ -25,8 +25,8 @@ E-Mail: federrath@informatik.uni-hamburg.de
 
 Webmaster/in:  
 Mo  
-Tel.: +49 1729308935  
-E-Mail: Moritz.Moennich@informatik.uni-hamburg.de  
+Tel.:  
+E-Mail:  
 
 #### Zentrale Adresse der Universität Hamburg
 
