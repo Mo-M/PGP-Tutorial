@@ -24,7 +24,7 @@ E-Mail: federrath@informatik.uni-hamburg.de
 #### Technische Verantwortlichkeit
 
 Webmaster/in:  
-Moritz Mönnich  
+Mo  
 Tel.: +49 1729308935  
 E-Mail: Moritz.Moennich@informatik.uni-hamburg.de  
 
